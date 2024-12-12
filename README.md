@@ -1,17 +1,13 @@
 # Discord-RPC-Extension
-Discord rich presence extension with open API.
-
-
-### Download
-<a href="https://chrome.google.com/webstore/detail/discord-rich-presence/agnaejlkbiiggajjmnpmeheigkflbnoo" target="_blank">Chrome</a>  
-<a href="https://addons.mozilla.org/firefox/addon/discord-rich-presence/" target="_blank">Firefox</a>
+Discord rich presence extension with open API.</br>
+Updated to always show "watching .." instead of "playing .."!
 
 ## Important!
 This extension only works in combination with the desktop application.  
 [Download Here](https://github.com/lolamtisch/Discord-RPC-Extension/releases/latest)
 
-This extension does not contain any presences.
-They are added by other extensions that communicate with this extension.
+This extension does not contain any presences.</br>
+They are added by other extensions that communicate with this extension.</br>
 A small list can be found here:  
 [Compatible Extensions](https://github.com/lolamtisch/Discord-RPC-Extension/blob/master/docs/extensions.md)
 
