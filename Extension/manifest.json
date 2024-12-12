@@ -1,25 +1,26 @@
 {
-  "manifest_version": 3,
-  "name": "Discord Rich Presence",
-  "version": "0.3.0",
-  "description": "Discord rich presence extension with open API.",
-  "background": {
-    "scripts": ["background.js"],
-    "service_worker": "background.js"
-  },
-  "icons": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png",
-    "512": "icons/icon512.png"
-  },
-  "action": {
-    "default_icon": "icons/icon16.png",
-    "default_popup": "popup/popup.html"
-  },
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';"
-  },
-  "permissions": ["tabs", "storage"]
+   "action": {
+      "default_icon": "icons/icon16.png",
+      "default_popup": "popup/popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "description": "Discord rich presence extension with open API.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "512": "icons/icon512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAize02dAtM9Qm82sHb0obmIErYfV75SwYAziyuboV9TtQq0ONv+tuDfW2pQWXiRyXqIU/knvGPZwQnXOjipC1RU8EShI9IMcCo3Mx/hFVHaNFxV6olRKwq/e/NufSxbAa6JYTaMh9B2KzKFFsD2qjUacmOqrr2G9j02mrFwbTerVrq/OvLKanV/RNOOl7hVvW/ZePMoB5oIJpjK31ECWOyoPHT8ACisvSWvwsMS47xSrRoPCJ8jhlEdkpktTA9Mrmsf5EkYB8Bfz64efVHoSiJlBwe1204cdR90uMQfxHlqFTk0XLGzX/hVpzNWM9AU7ambU+aocbKxENzyW9dj5XYQIDAQAB",
+   "manifest_version": 3,
+   "name": "Discord Rich Presence",
+   "permissions": [ "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.0"
 }
