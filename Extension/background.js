@@ -316,9 +316,6 @@ function sanitizePresence(pres) {
     delete pres.presence.smallImageText;
   }
 
-  //Bruteforce the status :)
-  pres.presence.type = 3;
-
   if (typeof pres.presence.endTimestamp !== 'undefined'){
     pres.presence.endTimestamp = Math.round(pres.presence.endTimestamp);
   }
@@ -355,6 +352,10 @@ function sanitizePresence(pres) {
     }
   }
   if (typeof pres.presence.buttons !== 'undefined' && !pres.presence.buttons.length) delete pres.presence.buttons;
+
+  //Bruteforce the status :)
+  pres.presence.type = 3;
+  
   return pres;
 }
 
